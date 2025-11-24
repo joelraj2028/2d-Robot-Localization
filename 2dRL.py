@@ -46,7 +46,6 @@ max_perturb_attempts = 3
 # Progress Bar
 PB_WIDTH = 50
 def print_progress(label, current, total, width=PB_WIDTH):
-    """Print a single-line progress bar: label- |████....| 37%"""
     if total <= 0:
         frac = 1.0
     else:
